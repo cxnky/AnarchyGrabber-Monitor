@@ -17,7 +17,7 @@ func monitor() {
 	for {
 		util.Info("Checking for AnarchyGrabber")
 		appDataPath := util.FetchAppDataPath()
-		discordModulesDirectory := fmt.Sprintf("%s\\Discord\\0.0.306\\modules\\discord_desktop_core", appDataPath)
+		discordModulesDirectory := fmt.Sprintf("%s\\Discord\\0.0.307\\modules\\discord_desktop_core", appDataPath)
 		indexJsLocation := fmt.Sprintf("%s\\index.js", discordModulesDirectory)
 
 		if !util.FileExists(indexJsLocation) {
